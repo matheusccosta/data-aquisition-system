@@ -71,7 +71,7 @@ private:
             std::getline(is, message);
             message.erase(message.find_last_not_of("\r\n") + 1);
             
-            // std::cout << "testandooo: " << message << std::endl;  // debug
+            // std::cout << "testandoo: " << message << std::endl;  // debug
             
             ProcessMessage(message);
           }
